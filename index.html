@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=0.1">
+    <title>Lab Car</title>
+    <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper menu-nav">
+        <a href="#!" class="brand-logo"><img class="logo-mobile" src="assets/images/logoForma.png" alt="Logo Lab-Car"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="color-black material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="color-black" href="sass.html">Viaja</a></li>
+          <li><a class="color-black" href="badges.html">Conduce</a></li>
+          <li><a class="modal-trigger color-black" href="#modal-init">Inicia sesión</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="sass.html">Viaja</a></li>
+          <li><a href="badges.html">Conduce</a></li>
+          <li><a href="collapsible.html">Inicia sesión</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="back-image container">
+      <section class="container">
+
+          <!-- Para celular -->
+        <div class="row">
+          <div class="empty-column col s12 m12 l12"></div>
+          <div class="empty-column-two col s2 m7 l8"></div>
+          <div class="div-app col s10 m5 l4">
+            <h1 class="title-white" >Comienza a viajar
+            <br>con <img class="logo-white" src="assets/images/logoBlanco.png" alt="logo blanco"></h1>
+            <a class="btn-white waves-effect waves-light btn">Descarga el app</a>
+          </div>
+          <div class="empty-column col s12 m12 l12"></div>
+        </div>
+          <!-- Para PC -->
+        <div class="row">
+          <div class="empty-column-pc-one col s12 m12 l12"></div>
+          <div class="empty-column-pc-two col s2 m7 l8"></div>
+          <div class="div-app-pc col s10 m5 l4">
+            <h1 class="title-white-pc" >Disfruta del viaje
+            <br>Eres dueño de tu tiempo</h1>
+            <h1 class="sub-title-pc" >Viaja con <img class="logo-white-pc" src="assets/images/logoBlanco.png" alt="logo blanco"></h1>
+            <button type="button" class="btn-white-pc btn btn-light" data-toggle="modal" data-target="#register">
+              REGÍSTRATE
+            </button>
+            <hr class="hr-pc">
+            <p class="text-p-pc">O bien</p>
+            <button type="button" class="btn-white-pc-two btn btn-light" data-toggle="modal" data-target="#driver">
+              Conviértete en conductor
+            </button>
+          </div>
+          <div class="empty-column col-xs-12"></div>
+        </div>
+      </section>
+    </div>
+    <div class="back-color container-fluid">
+      <div class="border-white container">
+        <h3 class="visible-xs sub-title">La nueva app</h3>
+        <div class="iphone"></div>
+        <p class="visible-sm visible-md visible-lg title-app text-bold text-iphone-section">Descarga la nueva app</p>
+        <p class="visible-sm visible-md visible-lg text-iphone-section">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+        <p class="visible-sm text-iphone-section">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+      </div>
+      <h4 class="visible-xs h4-text">Llega a tu destino aún más rápido</h4>
+    </div>
+    <div class="section-three container-fluid">
+      <div>
+        <div class="back-image-two"></div>
+      </div>
+      <div class="text-absolute visible-xs">
+        <p class="text-bold">Conduce cuando quieras</p>
+        <p class="h5-text">LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+        <button type="button" class="btn-yellow btn btn-warning">Conviértete en conductor</button>
+      </div>
+      <div class="text-for-lg">
+        <p class="text-bold">Conduce cuando quieras</p>
+        <p class="h5-text">LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+        <button type="button" class="btn-yellow btn btn-warning">Conviértete en conductor</button>
+        <button type="button" class="btn-yellow btn btn-warning" data-toggle="modal" data-target="#driver">Conviértete en conductor</button>
+      </div>
+    </div>
+    <div class="section-four container">
+      <div class="div-col-map row col s12 m6 l6">
+        <p class="text-bold">Tarifas</p>
+        <p class="h5-text">Consulta las tarifas LabCar aquí</p>
+        <div class="input-div"><span class="icon-map glyphicon glyphicon-record"></span><input class="input-map" type="text" name="" placeholder="Insurgentes Centro, Cuauhtémoc, Ciudad de México, México"></div>
+        <div class="input-div"><span class="icon-map glyphicon glyphicon-send"></span><input class="input-map" type="text" name="" placeholder="Carolina, Ciudad de los Deportes, Ciudad de México, México"></div>
+        <button class="center btn-white btn btn-light" type="button">¡ TRAZAR RUTA !</button>
+      </div>
+      <div class="row col s12 m6 l6">
+        <div class="div-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15608.399940772993!2d-77.06219155!3d-12.036637200000001!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1513528406865" width="100%" height="410" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--Modales-->
+    <!-- Modal Incia sesión -->
+    <div id="modal-init" class="modal">
+      <div class="modal-content">
+        <div>
+          <div>
+            <img class="container-image" src="assets/images/user.png" alt="user">
+          </div>
+        </div>
+        <div class="user-passw">
+          <div class="container-form">
+            <div>
+              <span><i class="fa fa-user" aria-hidden="true"></i></span>
+              <input type="text" placeholder="Username">
+            </div>
+            <div>
+              <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+              <input type="text" placeholder="Password">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="btn modal-action modal-close waves-effect waves-green btn-flat">LOGING</a>
+        <p class="little-text">Forgot password? <a href="#">Click Here</a></p>
+      </div>
+    </div>
+
+    <!-- Fin del modal -->
+
+    <!--fin de modales-->
+    <footer class="footer container">
+      <div class="footer-color">
+        <div class="row col s12 m12 l12">
+          <img class="logo-footer" src="assets/images/logoBlanco.png" alt="Logo LabCar">
+          <hr class="line-white">
+        </div>
+        <div class="row">
+          <div class="col s5 m3 l3">
+            <div class="container-logo-social dow-social-icons">
+              <span class="icons-social"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></span>
+              <span class="icons-social"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></span>
+              <span class="icons-social"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></span>
+              <span class="icons-social"><i class="fa fa-lg fa-apple" aria-hidden="true"></i></span>
+              <span class="icons-social"><i class="fa fa-lg fa-play" aria-hidden="true"></i></span>
+            </div>
+          </div>
+          <div class="col s5 m3 l3">
+            <ul>
+              <li class="menu-footer">Viaja</li>
+              <li class="menu-footer">Conduce</li>
+              <li class="menu-footer">Ciudades</li>
+              <li class="menu-footer">Entregas</li>
+              <li class="menu-footer">Cómo funciona?</li>
+              <li class="menu-footer">Países</li>
+              <li class="menu-footer">Seguridad</li>
+            </ul>
+          </div>
+          <div  class="col s3 m3 l3">
+            <ul>
+              <li class="menu-footer">Oportunidades</li>
+              <li class="menu-footer">Nuestra historia</li>
+              <li class="menu-footer">API de LabCar</li>
+              <li class="menu-footer">Eventos</li>
+              <li class="menu-footer">Desarrolladores</li>
+              <li class="menu-footer">Laboratoria</li>
+              <li class="menu-footer">Coders</li>
+            </ul>
+          </div>
+          <div class="col s7 m3 l3">
+            <div class="visible-xs container-logo-social">
+              <span class="icons-social"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></span>
+              <span class="icons-social"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></span>
+              <span class="icons-social"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></span>
+              <span class="icons-social"><i class="fa fa-lg fa-apple" aria-hidden="true"></i></span>
+              <span class="icons-social"><i class="fa fa-lg fa-play" aria-hidden="true"></i></span>
+            </div>
+            <div class="container-logo-app">
+              <img class="icon-app" src="assets/images/google.png" alt="logo google store">
+              <img class="icon-app" src="assets/images/app.png" alt="logo apple store">
+            </div>
+          </div>
+        </div>
+        <div class="row col s12 m12 l12">
+          <hr class="line-white-two">
+          <p class="p-footer">© 2017 LabCar technologies Inc.</p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
